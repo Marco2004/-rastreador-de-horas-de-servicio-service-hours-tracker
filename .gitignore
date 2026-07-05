@@ -1,0 +1,17 @@
+# Configuracion local con credenciales reales - nunca se sube al repositorio
+/config.php
+
+# Logs y artefactos de entorno
+*.log
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Archivos internos de herramientas de desarrollo
+.claude/
+
+# Estado local del proyecto - nunca se sube al repositorio
+/README_LOCAL.md

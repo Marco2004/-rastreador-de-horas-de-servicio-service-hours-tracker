@@ -1,0 +1,56 @@
+/* Estilos para las pantallas de layout fluido: kiosco (index.php) y
+   panel de administracion (panel.php). */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.card {
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.input-group .form-control {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.input-group .form-control:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-secondary {
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000000;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content .card {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    color: #333333;
+}

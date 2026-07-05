@@ -1,0 +1,112 @@
+/* Estilos para las pantallas de formulario centrado: login y registro. */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.card {
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary:active {
+    background-color: #004085;
+    border-color: #004085;
+}
+
+.btn-primary:disabled {
+    background-color: #80bdff;
+    border-color: #80bdff;
+}
+
+.btn-primary:disabled:hover {
+    background-color: #80bdff;
+    border-color: #80bdff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-secondary:active {
+    background-color: #4e555b;
+    border-color: #454d55;
+}
+
+.btn-secondary:disabled {
+    background-color: #adb5bd;
+    border-color: #adb5bd;
+}
+
+.btn-secondary:disabled:hover {
+    background-color: #adb5bd;
+    border-color: #adb5bd;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666666;
+}
+
+.eye-icon:hover {
+    color: #333333;
+}
